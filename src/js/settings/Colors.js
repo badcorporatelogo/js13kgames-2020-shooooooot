@@ -16,9 +16,11 @@ const palette195741 = [
 
 const palette = palette195741;
 
-export default class Colors {
-  static background = palette[0];
-  static obstacles = palette[1];
-  static enemies = palette[2];
-  static player = palette[3];
+const Colors = {
+  background: palette[0],
+  obstacles: palette[1],
+  enemies: palette[2],
+  player: palette[3],
 }
+
+export default Colors;
