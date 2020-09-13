@@ -14,6 +14,7 @@ import { volume as zzfxV } from '../settings/volume'
 const zzfxR = 44100 // sample rate
 
 export default function zzfxInit() {
+  var AudioContext = window.AudioContext || window.webkitAudioContext;
   const zzfxX = new AudioContext()
 
   // ZzFXMicro - Zuper Zmall Zound Zynth
